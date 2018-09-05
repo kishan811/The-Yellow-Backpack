@@ -1,0 +1,167 @@
+  /* Blog Stylesheet */
+
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+body {
+	font-size: 16px;
+	font-family: helvetica, georgia, Times, serif;
+	background: url('img/backpack1.jpg');
+    background-size:cover;
+}
+
+h1,h2,h3 {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#container {
+	
+	width: 800px;
+	margin: 0 auto;
+}
+
+header {
+	text-align: center;
+	background: #ddd;
+	color: #ddd;
+	padding: 0.5px;
+
+}
+
+article {
+	background-color: rgba(800, 250, 450, 0.4);
+	padding: 25px;
+	margin: 15px 0;
+}
+
+article p {
+	margin: 20 0 1em;
+	
+}
+
+section.post-head small{
+	display:block;
+	margin: 10 0 20px;
+	padding: 0 0 20px;
+	color: whitesmoke;
+		
+}
+
+section.post-foot{
+	font-size: 14px;
+/*	border-top: solid 1px #eee;*/
+	margin: -30px 0 0 ;
+	padding: 20px 0 0 ;
+	
+}
+
+footer {
+	text-align: center;
+	color: white ;
+	font-size: 14px;
+}
+
+#ybook{
+	color: #f8e544;
+	background-color: black; 
+	display: inline-block;
+	margin: 20px 0 10px;
+	
+}
+ul {
+    list-style-type: none;
+    margin: 3;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+#foot ul li{
+	float: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}		
+.white{
+
+	max-width: 1000px;
+    height: 200px;
+    background-color: white;
+    }
+
+   /*search*/ 
+   form {
+                width:350px;
+                margin:10px 240px auto;
+	            display: inline-block;  
+   	             
+}
+.search {
+                padding:8px 15px;
+	            align-self: center;
+                background:rgba(50, 50, 50, 0.2);
+                border:0px solid #dbdbdb;
+}
+.button {
+                position:relative;
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+.button:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+}
+
+/*footer */
+
+footer {
+	text-align: center;
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li{
+	display: inline-block;
+}
+    
+/* what to carry -styling */
+#container1 {
+	
+	width: 800px;
+	margin: 0 auto;
+}
+
+header {
+	text-align: center;
+	background: #387e90;
+	color: #1a71b8;
+	padding: 0.5px;
+
+}

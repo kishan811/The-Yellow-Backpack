@@ -1,0 +1,613 @@
+.w3-container{padding:0.014em 16px}
+    
+    .w3-padding-48{padding-top:38px!important;padding-bottom:38px!important}
+    
+    .w3-white{color:#000!important;
+         background-image: url("img/1234r.jpeg");
+        background-repeat: no-repeat;
+       /* background-position:right; */
+		background-size: center;
+        min-height: 400px;
+        background-color:white
+        ; background-size:cover;font-family: helvetica,sans-serif,monospace;}
+    w3-center {text-align:center} 
+
+
+/*display:inline-block;width:auto*/
+    
+    
+    .w3-xxxlarge{font-size:48px!important}
+    
+    
+    .w3-tag{background-color:#000;color:#fff;display:inline-block;padding-left:10px;padding-right:10px;text-align:center;font-size: 30px;font-family: helvetia,sans-serif,monospace;}
+    
+    .w3-padding-32{padding-top:22px!important;padding-bottom:32px!important}
+    
+    .w3-third {
+		float:left;width:100%
+             }
+    
+    w3-row{padding:0 8px}
+    
+    .mySlides {display:none}
+    
+    
+    * {box-sizing:border-box}
+/*body {font-family: Verdana,sans-serif;margin:0}*/
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+ 
+	
+}
+
+
+/* Next & previous buttons 
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+    */
+
+/* Position the "next button" to the right 
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+*/
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+ color:black;
+  background-color:white;
+  display:inline-block; 
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+    
+    
+    
+    
+    
+    
+ul {
+    list-style-type: none;
+    margin: 3;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+      letter-spacing: 3px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}		
+.white{
+
+	max-width: 1000px;
+    height: 200px;
+    background-color: white;
+    }
+
+form {
+                width:500px;
+                margin:0 auto;
+}
+.search {
+                padding:8px 15px;
+	            align-self: center;
+	
+                background:rgba(50, 50, 50, 0.2);
+                border:0px solid #dbdbdb;
+}
+.button {
+                position:relative;
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+.button:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+}
+    
+    
+ .logo {
+      /* background-color: lightgrey;*/    /* add any imagge with opacity */
+
+    font-family:helvetica,serif, Charcoal, sans-serif;
+	font-style:normal; 
+    text-align: center;
+    padding: 30px;
+    margin: 40px;
+    padding: 20px;
+    width: 500px; 
+    height: 10px;
+	text-transform: lowercase;
+  
+	 /* border: 8px solid black;
+    outline: 8px solid #0099cc;*/
+    /* Move the outline 15px away from the border */
+   
+	 outline-offset: 15px;
+}
+.footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center ;
+	text-transform: lowercase;
+	font-family: helvetica,serif;
+	display: block;
+	
+     padding: 15px;
+}
+    
+   body {
+    background-color: white;
+} 
+    
+    
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("img/IMG_0444.JPG");
+  min-height:500px;
+ 
+}
+
+.bgimg-2 {
+  background-image: url("img/DSC_0242.jpg");
+  min-height: 400px;
+  /*background-image:*/     
+};
+
+.bgimg-3 {
+  background-image: url("img/IMG_0704.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+} 
+
+#img1 {
+	float:left;
+}
+
+.left{
+	float: right;
+	margin-bottom: 240px;
+	widows: inherit;
+}
+
+#img1{
+	display: inline;
+	margin: 0px 200px 200px;
+	padding: 0;
+	height: 50px;
+}
+
+#w3_third{
+	margin-bottom:-200px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#sp2 {
+	float: right;
+    margin:70px 10px;
+	padding: 0;
+	
+}
+
+#sp3 {
+	display:inline;
+	margin: -40px 0 30px;
+   height:  50px;
+}
+
+footer {
+	text-align: center;
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+header ul li{
+	font-family: helvetica, serif;
+	
+}
+
+h1{
+	color: #f8e544;
+	background-color: black; 
+	display: inline-block;
+	
+}
+
+#box {
+	background: url('img/backpack3.jpg');	
+}
+
+#text {
+	display: inline-block;
+}
+
+/* style for jquery chaining */
+
+.notification-bar {
+    display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #333;
+	color: white;
+	text-align: center;
+	padding: 30px;
+	font-family: helvetica,sans-serif;
+}
+
+.notification-bar a{
+	color: #fc3;
+	font-size: 25px;
+}
+
+/* style for login */
+/* Mask for background, by default is not display */
+#mask {
+    display: none;
+    background: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 999;
+}
+
+/* You can customize to your needs  */
+.login-popup {
+    display: none;
+    background: #333;
+    padding: 10px;
+    border: 2px solid #ddd;
+    float: left;
+    font-size: 1.2em;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 99999;
+    box-shadow: 0px 0px 20px #999;
+    /* CSS3 */
+        -moz-box-shadow: 0px 0px 20px #999;
+    /* Firefox */
+        -webkit-box-shadow: 0px 0px 20px #999;
+    /* Safari, Chrome */
+	border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px;
+    /* Firefox */
+        -webkit-border-radius: 3px;
+    /* Safari, Chrome */;
+}
+
+img.btn_close {
+    /*Position the close button*/
+	float: right;
+    margin: -28px -28px 0 0;
+}
+
+fieldset {
+    border: none;
+}
+
+form.signin .textbox label {
+    display: block;
+    padding-bottom: 7px;
+}
+
+form.signin .textbox span {
+    display: block;
+}
+
+form.signin p, form.signin span {
+    color: #999;
+    font-size: 11px;
+    line-height: 18px;
+}
+
+form.signin .textbox input {
+    background: #666666;
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #000;
+    border-right: 1px solid #333;
+    border-top: 1px solid #000;
+    color: #fff;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    font: 13px Arial, Helvetica, sans-serif;
+    padding: 6px 6px 4px;
+    width: 200px;
+}
+
+form.signin input:-moz-placeholder {
+    color: #bbb;
+    text-shadow: 0 0 2px #000;
+}
+
+form.signin input::-webkit-input-placeholder {
+    color: #bbb;
+    text-shadow: 0 0 2px #000;
+}
+
+.button {
+    background: -moz-linear-gradient(center top, #f3f3f3, #dddddd);
+    background: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#dddddd));
+    background: -o-linear-gradient(top, #f3f3f3, #dddddd);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f3f3f3', EndColorStr='#dddddd');
+    border-color: #000;
+    border-width: 1px;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    padding: 6px 6px 4px;
+    margin-top: 10px;
+    font: 12px;
+    width: 214px;
+}
+
+.button:hover {
+    background: #ddd;
+}
+
+/* subscribe */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, sans-serif;
+  color: #384047;
+}
+
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #5fcf80;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 480px;
+  }
+
+}

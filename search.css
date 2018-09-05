@@ -1,0 +1,25 @@
+/*/!--searchbar--/*/
+
+form {
+                width:350px;
+                margin:10px 240px auto;
+	             
+}
+#srch {
+                padding:8px 15px;
+             	align-self: center;
+                background:rgba(50, 50, 50, 0.2);
+                border:0px solid #dbdbdb;
+}
+.button {
+                position:relative;
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+.button:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+}
